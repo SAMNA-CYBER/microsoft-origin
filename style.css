@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+    line-height: 1.5;
+    
+
+}
+a{
+    color:#262626;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 98%;
+    max-width: 1300px;
+    margin:auto;
+}
+/* nav*/
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+font-size: 13px;
+
+}
+.main-nav .logo{
+    width:110px;
+}
+.main-nav ul{
+    display: flex;
+}
+.main-nav ul li{
+    
+   padding: 0 10px;
+    
+}
+.main-nav ul li i{
+    
+    padding: 0 8px;
+     
+ }
+
+
+.main-nav ul.main-menu{
+    flex:1;
+    margin-left: 20px;
+
+}
+
+  .header{
+    margin-bottom: 30px;
+  }
+
+.btn-1{
+  background-color: #ffb900;
+  margin: 0 0 8px 0;
+  padding: 6px 12px 6px 12px ;
+  display:inline-block;
+  font-weight: 600;
+  text-align: center;
+  width:60px;
+ }
+ .img-highlight{
+ 
+  height: 450px;
+  width: 100%;
+  background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP4-1399x600') no-repeat center center/cover;
+}
+
+.card{
+  height: 320px;
+  width: 510px;
+  padding:48px;
+  background-color: #ffffff;
+  position: relative;
+  top:50px;
+  left:50px;
+}
+.header2{
+    width:15%;
+    height:50px;
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 19px;
+   top:100px;
+}
+.section1-class{
+  margin-top: 50px;
+}
+.section1{
+    width:60%;
+    height:60px; 
+     margin: auto;
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+.section1 .link{
+
+ text-align: center;
+margin-top: 20px;
+   
+ }
+ .link img{
+    width:40px;
+    height:40px;
+ }
+ .section1 a {
+    color:rgb(0, 103, 184);
+    text-decoration: none; /* Remove the default underline */
+    border-bottom: 2px solid ;
+ }
+
+ /*home cards*/
+ .home-cards{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-gap: 20px;
+ margin-top: 150px;
+ 
+ 
+
+ }
+
+ .home-cards img{
+    width: 100%;
+    margin-bottom: 20px;
+
+   
+ }
+ .home-cards .boxp1{
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: 500;
+    padding:20px;
+   
+ }
+ .home-cards .boxp2{
+    font-size: 16px;
+    padding:20px;
+ }
+ .btn1{
+    margin-left: 20px;
+    background-color: rgb(0, 103, 184);
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-decoration: none;
+    cursor: pointer; 
+    display: inline-block; 
+
+ }
+ .home-cards div{
+   box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 7px 0px, rgba(0, 0, 0, 0.11) 0px 1px 2px 0px;
+
+ }
+ .section2 img{
+    height:490px;
+    margin-top: 100px;
+ }
+
+.section2
+{
+    width: 100%;
+    height: 450px;
+    background: url('images/copilot-app.avif');
+    margin:30px 0 ;
+
+}
+.section2 .content{
+    font-size: 20px;
+    width: 30%;
+    padding: 100px 0 0 80px;
+    
+}
+.section2 p{
+    margin-top: 20px;
+}
+.section2 .btn1{
+    margin-top: 20px;
+}
+.btn-2{
+    background-color: #0067bb;
+    margin: 0 0 8px 0;
+    padding: 6px 12px 6px 12px ;
+    display:inline-block;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+   }
+   .business{
+    padding:60px;
+  }
+  
+  .b-products{
+    display: flex;
+    gap: 2%;
+   }
+   
+   .business .product{
+    height: 530px;
+     width: 30%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   
+   .b-product-content{
+     padding:50px 25px 50px 25px;
+   }
+   
+   .b-product-bottom{
+     padding:24px;
+   }
+   
+   .b-product-content h2{
+     font-size: 24px;
+     font-weight: 600;
+     margin-bottom: 15px;
+   }
+   
+   .b-product-content p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+   }
+   
+  
+   .b-product img{
+     display: block;
+     height: 160px;
+     width: 100%;
+     object-fit: cover;
+   }
+   
+   .b-product a {
+     display: block;
+   }
+
+   .follow{
+    display: flex;
+    padding: 70px 40px 0px 70px;
+    font-size: 16px;
+   }
+   
+   .follow p{
+    margin-right: 10px;
+   }
+  
+   .follow i{
+    font-size: 25x;
+    margin-left: 15px;
+   }
+   
+   .nav-top{
+    padding:0px 40px 60px 40px;
+    display: flex;
+    justify-content: flex-end;
+   }
+  
+   .nav-top i{
+    margin-right: 5px;
+   }
+  
+   .nav-top .btn-2{
+    background-color: grey;
+   }
+  
+   .links{
+     background-color: #f2f2f2;
+     color: #616161;
+     font-size: 12px;
+     padding:60px;
+   }
+  
+   .links-inner{
+     display: flex;
+     justify-content: space-between;
+     padding:20px 20px 20px 0px;
+     
+   }
+  
+   .links ul{
+    list-style-type:none;
+    text-align: left;
+    padding:12px 12px 12px 0px;
+    width:1fr;
+   }
+  
+   .links ul h1{
+    font-size: 15px;
+   }
+  
+   .links ul li{
+    display: block;
+    text-align: left;
+    padding:5px;
+   }
+  
+  
+   .links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 0px;
+  
+   }
+  
+   .footer{
+    background-color: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding:0px 20px 0px 20px;
+   }
+  
+   .footer-inner{
+     display: flex;
+     justify-content: space-between;
+     padding:30px;
+   }
+  
+   .footer .left{
+     display: flex;
+   }
+  
+   .footer .right{
+    display: flex;
+   }
+  
+   .footer ul {
+    list-style-type: none;
+   }
+  
+   .footer ul li{
+    padding:20px;
+   }
